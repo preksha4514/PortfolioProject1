@@ -7,11 +7,11 @@ Name AS 'Participant Name',  -- Rename column
 CASE WHEN Sex ='M' THEN 'Male' ELSE 'Female' END AS Sex,
 Age,
 
---CASE	WHEN Age < 18 THEN 'Under 18'
---		WHEN Age Between 18 AND 23 THEN '18-23'
---		WHEN Age Between 23 AND 30 THEN '23-30'
---		WHEN Age > 30 THEN 'Over 30'
---END AS Age Group,
+CASE	WHEN Age < 18 THEN 'Under 18'
+		WHEN Age Between 18 AND 23 THEN '18-23'
+		WHEN Age Between 23 AND 30 THEN '23-30'
+		WHEN Age > 30 THEN 'Over 30'
+END AS [Age Group],
 
 Height, 
 Weight,
