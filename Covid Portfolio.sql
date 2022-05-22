@@ -138,4 +138,5 @@ JOIN Portfolio_Project1..covid_vaccination v
 Where d.continent is not null
 
 
-
+Select *
+From PeopleVaccinatePercent 
